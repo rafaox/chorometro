@@ -44,7 +44,7 @@ export default function Home() {
       direction="column"
       alignItems="center"
       justifyContent="flex-start"
-      h="100vh"
+      h="100%"
     >
       <Header />
 
@@ -82,7 +82,7 @@ export default function Home() {
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            minH="250px"
+            minH="300px"
             textAlign="center"
           >
             <Image

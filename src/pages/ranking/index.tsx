@@ -22,7 +22,7 @@ export default function Ranking() {
       direction="column"
       alignItems="center"
       justifyContent="flex-start"
-      h="100vh"
+      h="100%"
     >
       <Header />
 
@@ -31,6 +31,7 @@ export default function Ranking() {
         maxWidth={1480}
         mx="auto"
         px="6"
+        justifyContent={isDrawerSidebar ? "center" : "space-between"}
       >
         <Sidebar />
 
