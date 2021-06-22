@@ -23,6 +23,8 @@ export const theme = extendTheme({
     global: {
       body: {
         backgroundImage: "./judeadtv2.png",
+        backgroundPosition: "justify",
+        backgroundRepeat: "no-repeat",
         color: "gray.50"
       }
     }
