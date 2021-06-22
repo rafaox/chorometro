@@ -31,7 +31,6 @@ export default function Ranking() {
         maxWidth={1480}
         mx="auto"
         px="6"
-        justifyContent={isDrawerSidebar ? "center" : "space-between"}
       >
         <Sidebar />
 
